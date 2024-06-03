@@ -116,6 +116,69 @@ header nav{
     border:1px black;
     border-radius: 10px;
 }
+.card-img{
+    width: 17rem;
+}
+.card-text button{
+    background:rgb(156, 87, 59) ;
+    padding: 10px 25px;
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+}
+
+
+/* contact form */
+.contact{
+    padding-top: 160px;
+    align-items: center;
+    justify-content: center;
+}
+.contact-text{
+    align-items: center;
+    
+}
+.contact-text h1{
+    font-weight: bold;
+}
+.contact-form{
+    width: 70%;
+    justify-content: center;
+}
+.contact-form form{
+    width: 60%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contact-form form input{
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px black;
+    padding: 20px 10px;
+    margin-bottom: 10px;
+}
+.contact-form form button{
+    background:rgb(156, 87, 59) ;
+    padding: 10px 25px;
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+}
+
+/* reservation */
+.reservation{
+    padding-top: 130px;
+    padding-bottom: 50px;
+}
+.reservation form .text-center button{
+    background:rgb(156, 87, 59) ;
+    padding: 10px 25px;
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+}
 /* footer */
 .footer-content{
     background: rgb(137, 76, 56);
