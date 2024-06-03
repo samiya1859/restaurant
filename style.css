@@ -1,0 +1,125 @@
+.home{
+background: url('./images/woodenbg.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 80vh;
+}    
+header nav{
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background: rgba(218, 134, 107, 0.5);
+}
+
+.toggler-icon{
+    /* background: white; */
+    color: white;
+    font-size: 26px;
+}
+.nav-items{
+    margin-right: 30px;
+}
+.nav-items ul li a{
+    color: white;
+    font-size:18px;
+    font-weight: bold;
+    background: rgb(156, 87, 59);
+    border-radius: 25px;
+    padding: 13px;
+    transition: all .4s ease;
+}
+.nav-items ul li a:hover{
+    letter-spacing: 2px;
+    background: rgba(156, 87, 59,0.6);
+}
+.nav-items ul{
+    gap: 18px;
+}
+.logo img{
+ width: 25%;
+ margin-right: 30px;
+}
+/* home */
+.home{
+
+    align-items: center;
+    justify-content: center;
+}
+.home-text{
+    color: wheat;
+}
+.home-text h1{
+    font-weight: bolder;
+}
+.home-text h6{
+    letter-spacing: 2px;
+}
+/* aboout */
+.about{
+    background: url('./images/restaurant.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about-content{
+    background: rgba(33, 33, 33,0.6);
+    padding: 20px;
+}
+.about-text{
+    color: white;
+    padding: 55px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.dis-button{
+   background: rgb(156, 87, 59);
+   border-radius: 20px;
+   padding: 10px 55px; 
+   font-size: 25px;
+   font-weight: 900;
+   letter-spacing: 2px;
+   text-align: center;
+}
+
+/* menu */
+.menu-items{
+    background: rgba(156, 87, 59,0.3);
+    height: 90vh;
+}
+.menu-category button{
+    background:rgb(156, 87, 59) ;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+
+/* footer */
+.footer-content{
+    background: rgb(137, 76, 56);
+    height: auto;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.footer-logo{
+    width: 130px;
+}
+.icons{
+    gap: 10px;
+}
+.icons i{
+ font-size: 26px;
+ transition: all .4s ease;
+}
+.icons i:hover{
+ transform: scale(1.2);
+}
+.delivery-img{
+    gap: 20px;
+}
+.delivery-img img{
+ width: 70px;
+ height: 70px;
+ background: wheat;
+ border-radius: 50%;
+}

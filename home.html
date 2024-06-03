@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <title>Restaurant management system</title>
+</head>
+<body>
+    <header class="fixed top-0 left-0 right-0">
+        <nav class="flex justify-between items-center p-4 ">
+            <div class="logo">
+                <img src="./images/logo.png" alt="logo">
+            </div>
+            <div id="nav-items" class="nav-items flex-grow lg:flex lg:items-center lg:justify-end hidden">
+               <ul class="flex flex-wrap gap-4">
+                <li><a href="home.html" class="text-gray-700 hover:text-gray-900">Home</a></li>
+                <li><a href="menu.html" class="text-gray-700 hover:text-gray-900">Menu</a></li>
+                <li><a href="contact.html" class="text-gray-700 hover:text-gray-900">Contact Us</a></li>
+                <li><a href="reserve.html" class="text-gray-700 hover:text-gray-900">Book a Table</a></li>
+               </ul>                
+            </div>
+            <div class="toggler-item lg:hidden">
+                <button id="toggler-item" class="toggler-icon text-gray-700">
+                    <i class="ri-menu-fill"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- home section -->
+    <section class="home-contents">
+        <div class="home flex flex-wrap">
+            <div class="home-text">
+                <h1 class="text-5xl bold">
+                    Enjoy the Fresh smell of food
+                </h1>
+                <h6>
+                    Eat fresh & Healthy food which will make you be fresh as well as think fresh
+                </h6>
+            </div>
+            <div class="home-img">
+                <img src="./images/pizzabg-removebg-preview.png" alt="">
+            </div>
+        </div>
+        <div class="discount">
+            <div class="dis-1">
+               
+            </div>
+            <div class="dis-2"></div>
+        </div>
+        <div class="about">
+           <div class="about-content p-6">
+             <div class="about-text">
+                <h1 class="text-5xl">Learn more about us!</h1><br>
+                <h2 class="text-3xl">What we are offering? </h2>
+                <h4 >Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, facilis? Laboriosam placeat, quae aut quisquam voluptas commodi ducimus deleniti nostrum sapiente, hic blanditiis! Corrupti exercitationem velit, doloribus unde optio quaerat?Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quis natus molestias est veniam expedita odit minus laudantium explicabo fuga consectetur, vero numquam officiis voluptates, atque exercitationem mollitia maiores nesciunt!</h4><br><br>
+                <button class="dis-button">Enjoy Flat 20% discount on fisrt online order!</button>
+             </div>
+           </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer >
+        <div class="footer-content flex flex-wrap">
+            <div>
+                <img class="footer-logo" src="./images/logo.png" alt="">
+            </div>
+            <div>
+                <h5>Reach us through</h5>
+                <ul class="icons">
+                    <i class="ri-facebook-circle-fill"></i>
+                    <i class="ri-instagram-fill"></i>
+                    <i class="ri-mail-fill"></i>
+                    <i class="ri-home-4-fill"></i>
+                </ul>
+                <div>
+                    <h5><i class="ri-phone-fill"></i>+02-8955392</h5>
+                    <h5><i class="ri-cellphone-fill"></i>+8801968999755</h5>
+                </div>
+            </div>
+            <div>
+                <a class="text-3xl btn text-bold" href="reserve.html">Book a table now!</a>
+                <h5>We are open from 9am to 12am</h5>
+                <h5>
+                    We are also available with 
+                    <div class="delivery-img flex flex-wrap p-5">
+                        <img src="./images/foodpanda-logo-0-2048x2048.png" alt="foodpanda">
+                        <img src="./images/2aa2d165edd6c7fabb998a0317eb5e6e.png" alt="sohozfood">
+                        <img src="./images/uber-eats-logo-0.png" alt="ubereats">
+                    </div>
+                </h5>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- script -->
+    <script src="script.js"></script>
+</body>
+</html>
