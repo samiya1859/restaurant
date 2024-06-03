@@ -35,22 +35,47 @@
 
     <!-- contact us section  -->
     <section class="contact flex flex-wrap bg-orange-200">
-        <div class="contact-text">
-            <h1 class="lg:text-5xl sm:text-2xl">Send us your confusions without any hesitation!!!</h1>
-      <h2 class="lg:text-3xl">We would love to hear you</h2>
+        <div class="w-full lg:w-1/2 p-4">
+            <h1 class="text-3xl lg:text-5xl mb-4">Contact Information</h1>
+            <p class="text-xl mb-2"><i class="ri-map-pin-line"></i> 123 Restaurant Street, Food City, FC 12345</p>
+            <p class="text-xl mb-2"><i class="ri-phone-line"></i> +02-8955392</p>
+            <p class="text-xl mb-2"><i class="ri-cellphone-line"></i> +8801968999755</p>
+            <p class="text-xl mb-2"><i class="ri-mail-line"></i> sambajidli@restaurant.com</p>
+            <div class="mt-4">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345095896!2d144.95373531531577!3d-37.81627917975157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577d4b9b41a38d5!2sRestaurant!5e0!3m2!1sen!2s!4v1595484409827!5m2!1sen!2s"
+                    width="100%"
+                    height="300"
+                    frameborder="0"
+                    style="border:0;"
+                    allowfullscreen=""
+                    aria-hidden="false"
+                    tabindex="0">
+                </iframe>
+            </div>
         </div>
-        <div class="contact-form ">
-            
-            <form action="">
-                <input type="text" placeholder="Your Name">
-                <input type="email" placeholder="Your Email Address">
-                <input type="text" placeholder="Subject">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Your text"></textarea>
-                <button class="btn btn-success" type="submit">Send</button>
+        <div class="w-full lg:w-1/2 p-4">
+            <h2 class="text-3xl lg:text-4xl mb-4">Send Us Your Message</h2>
+            <form id="contact-form" class="bg-white p-6 rounded shadow-md">
+                <div class="mb-4">
+                    <label for="name" class="block text-gray-700">Name</label>
+                    <input type="text" id="name" name="name" class="w-full p-2 border rounded" required>
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-gray-700">Email</label>
+                    <input type="email" id="email" name="email" class="w-full p-2 border rounded" required>
+                </div>
+                <div class="mb-4">
+                    <label for="message" class="block text-gray-700">Message</label>
+                    <textarea id="message" name="message" rows="5" class="w-full p-2 border rounded" required></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" >Send</button>
+                </div>
             </form>
         </div>
-        
     </section>
+
 
 
 

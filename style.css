@@ -130,9 +130,11 @@ header nav{
 
 /* contact form */
 .contact{
+    padding: 20px;
     padding-top: 160px;
     align-items: center;
     justify-content: center;
+    
 }
 .contact-text{
     align-items: center;
@@ -166,7 +168,13 @@ header nav{
     color: white;
     font-size: 18px;
 }
-
+.contact .text-center button{
+    background:rgb(156, 87, 59) ;
+    padding: 10px 25px;
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+}
 /* reservation */
 .reservation{
     padding-top: 130px;
